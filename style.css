@@ -1,0 +1,39 @@
+.navbar{
+    box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+#brand{
+    color: white;
+    border-color: white;
+}
+
+#brand:hover{
+    color: #007BFF;
+    background-color: white;
+    border-color: #007BFF;
+}
+
+.nav-link{
+    color: white;
+}
+
+.nav-link:hover{
+    color: #999999;
+}
+
+footer > p{
+    color: white;
+}
+
+
+section{
+    background-color:#F7F5FB;
+}
+
+.card{
+    box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer{
+
+}

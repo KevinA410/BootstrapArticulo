@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"
+        defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"
+        defer></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"
+        defer></script>
+</head>
+
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-md navbar-primary bg-primary fixed-top">
+        <Button id="brand" class="btn btn-outline-secondary">
+            K
+        </Button>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menuCont"
+            aria-controls="menuCont" aria-expanded="false" aria-label="Toggle navigation">
+            <img src="img/menu_white.svg" width="25px" height="25px" alt="">
+        </button>
+        <div id="menuCont" class="collapse navbar-collapse">
+            <div class="navbar-nav text-center ml-auto">
+                <a href="#" class="nav-link">Inicio</a>
+                <a href="#" class="nav-link">Servicio</a>
+                <a href="#" class="nav-link">Nosotros</a>
+                <a href="#" class="nav-link">Contacto</a>
+                <a href="#" class="nav-link">Blog</a>
+            </div>
+        </div>
+    </nav>
+    <!--Section-->
+    <section class="mt-5 pt-5">
+        <div class="container">
+            <!--Principal-->
+            <di class="row">
+                <!--Articulo-->
+                <div class="col-12 col-md-8">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <h1 class="text-center">Lorem ipsum dolor sit.</h1>
+                            </div>
+                            <div class="card-image-top">
+                                <img src="img/img1.jpg" width="100%" alt="">
+                            </div>
+                            <div class="card-text">
+                                <p class="text-justify pt-3">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea exercitationem placeat
+                                doloribus sit consequatur. Labore, saepe error ad molestias, recusandae soluta odio
+                                cumque veritatis quibusdam dolor accusamus facere iusto culpa rerum. Numquam explicabo
+                                autem ipsum ipsam temporibus amet quos, fugiat enim reiciendis dolores deleniti in
+                                similique! Veritatis vero nemo, repudiandae dolore unde placeat, eos quidem dolor
+                                laboriosam deserunt voluptates aut soluta molestiae modi numquam minus repellendus
+                                accusantium nobis qui adipisci maiores voluptate voluptatum, eveniet cumque. Consectetur
+                                earum deserunt sequi consequatur adipisci modi magni, dolores dignissimos corrupti nulla
+                                esse sunt ut dolore laudantium voluptatibus animi molestias repellat. Ipsam, repudiandae
+                                suscipit ea ducimus excepturi placeat ipsa aperiam vero accusantium numquam dolorum
+                                voluptate, vel accusamus atque illum unde officia ab. Maiores, ex error.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Autor-->
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-8 card-title">
+                                    <p><b>AUTOR</b></p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-4 card-image-top align-self-center">
+                                    <img src="img/autor.jpg" class="rounded-circle" width="100%" alt="">
+                                </div>
+                                <div class="col-8 card-text align-self-center">
+                                    <p class="text-justify">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed incidunt error
+                                        perspiciatis quos fuga ipsa, dolores omnis suscipit quibusdam cupiditate.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Comentarios-->
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <form>
+                                <div class="form-group">
+                                    <label for="" class="h3 d-flex justify-content-center">Envia un Comentario</label>
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Nombre">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Correo Electronico">
+                                </div>
+                                <div class="form-group">
+                                    <textarea class="form-control" placeholder="Comentario" cols="30"
+                                        rows="10"></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <input type="submit" class="btn btn-primary btn-block" placeholder="Nombre" value="Enviar">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!--Relacionados-->
+                <div class="col-12 col-md-4">
+                    <h3 class="text-center">Relacionados</h2>
+                    <!--Tema 1-->
+                    <div class="card mb-2">
+                        <div class="card-body">
+                            <div class="card-image-top">
+                                <img src="img/related1.jpg" width="100%">
+                            </div>
+                            <div class="card-title">
+                                <h4>Lorem, ipsum dolor.</h2>
+                            </div>
+                            <div class="card-text">
+                                <p class="text-justify">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur, culpa.</p>
+                            </div>
+                            <div class="buton d-flex justify-content-end">
+                                <button class="btn btn-outline-primary" type="button">Leer M&aacute;s</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Tema 2-->
+                    <div class="card mb-2">
+                        <div class="card-body">
+                            <div class="card-image-top">
+                                <img src="img/related2.jpg" width="100%">
+                            </div>
+                            <div class="card-title">
+                                <h4>Lorem, ipsum dolor.</h2>
+                            </div>
+                            <div class="card-text">
+                                <p class="text-justify">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur, culpa.</p>
+                            </div>
+                            <div class="buton d-flex justify-content-end">
+                                <button class="btn btn-outline-primary" type="button">Leer M&aacute;s</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Tema 3-->
+                    <div class="card mb-2">
+                        <div class="card-body">
+                            <div class="card-image-top">
+                                <img src="img/related3.jpg" width="100%">
+                            </div>
+                            <div class="card-title">
+                                <h4>Lorem, ipsum dolor.</h2>
+                            </div>
+                            <div class="card-text">
+                                <p class="text-justify">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur, culpa.</p>
+                            </div>
+                            <div class="buton d-flex justify-content-end">
+                                <button class="btn btn-outline-primary" type="button">Leer M&aacute;s</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Tema 4-->
+                    <div class="card mb-2">
+                        <div class="card-body">
+                            <div class="card-image-top">
+                                <img src="img/related4.jpg" width="100%">
+                            </div>
+                            <div class="card-title">
+                                <h4>Lorem, ipsum dolor.</h2>
+                            </div>
+                            <div class="card-text">
+                                <p class="text-justify">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur, culpa.</p>
+                            </div>
+                            <div class="buton d-flex justify-content-end">
+                                <button class="btn btn-outline-primary" type="button">Leer M&aacute;s</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </di>
+        </div>
+    </section>
+    <!--Footer-->
+    <footer class="container-fluid bg-primary pt-2 pb-1">
+        <p class="text-center">&copy;2020 Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>
